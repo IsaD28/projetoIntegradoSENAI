@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+header {
+    /*position: fixed;*/
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    background-color: rgb(54, 54, 54);
+    font-style: italic;
+}
+
+header img {
+    height: 45px;
+    border-radius: 5px;
+}
+
+.links ul {
+    display: flex;
+    align-items: center;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    user-select: none;
+}
+
+.materias a {
+    background-color: rgba(0, 0, 0, 0.075);
+    padding: 0px 20px;
+}
+
+.areadoaluno {
+    margin-left: 600px;
+    padding: 10px;
+    border-radius: 27px;
+    border: solid 3px white;
+    background-color: rgba(48, 3, 3, 0.418);
+}
+
+main {
+    background-color: wheat;
+}
+
+.home {
+    height: 90vh;
+    background-color: rgba(255, 220, 220, 0.63);
+    align-items: stretch;
+    text-align: center;
+}
+
+.sop {
+    height: 100vh;
+    background-color: tan;
+}
+
+.fpoo {
+    height: 100vh;
+    background-color: tomato;
+}
+
+.hare {
+    height: 100vh;
+    background-color: turquoise;
+}
+
+.lima {
+    height: 100vh;
+    background-color: violet;
+}
+footer {
+    height: 10vh;
+    background-color: blueviolet;
+}
