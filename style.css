@@ -26,6 +26,7 @@ header {
 header img {
     height: 45px;
     border-radius: 5px;
+    z-index: 1;
 }
 
 .links ul {
@@ -45,7 +46,7 @@ header img {
 
 .materias a {
     background-color: rgba(0, 0, 0, 0.075);
-    padding: 0px 20px;
+    padding-right: 40px;
 }
 
 .areadoaluno {
@@ -62,7 +63,7 @@ main {
 
 .home {
     height: 100vh;
-    background-color: rgba(255, 220, 220, 0.63);
+    background-color: rgba(255, 234, 234, 0.856);
 }
 
 .entrada {
@@ -70,6 +71,13 @@ main {
     padding-top: 40vh;
     flex-direction: column;
     text-align: center;
+}
+
+.seta {
+    width: 65px;
+    top: 90vh;
+    left: 47vw;
+    position: absolute;
 }
 
 .home p {
@@ -81,30 +89,104 @@ main {
 }
 .home h2 {
     text-align: center;
-    padding-top: 37vh;
+    padding-top: 33vh;
     font-size: 20px;
 }
 
 .sop {
     height: 100vh;
-    background-color: tan;
+    padding: 0px 40px;
+    background-color: rgb(194, 205, 235);
+}
+
+.sop p {
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 36vw;
+}
+
+.sop h2{
+    font-size: 50px;
+}
+.sop h3 {
+    font-size: 25px;
+    padding-left: 5vw;
+}
+
+.titulosop {
+    display: flex;
+    padding-top: 20vh;
 }
 
 .fpoo {
     height: 100vh;
-    background-color: tomato;
+    padding: 0px 40px;
+    background-color: rgb(124, 47, 47);
+}
+
+.fpoo p {
+    text-align: justify;
+    font-size: 20px;
+    margin-right: 50vw;
+}
+
+.fpoo h2{
+    font-size: 50px;
+    padding-top: 20vh;
+}
+.fpoo h3 {
+    font-size: 25px;
 }
 
 .hare {
     height: 100vh;
+    padding: 0px 40px;
     background-color: turquoise;
 }
 
+.hare p {
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 36vw;
+}
+
+.hare h2{
+    font-size: 50px;
+}
+.hare h3 {
+    display: flex;
+    font-size: 25px;
+    padding-left: 5vw;
+}
+
+.titulohare {
+    display: flex;
+    padding-top: 20vh;
+}
+
+
 .lima {
     height: 100vh;
+    padding: 0px 40px;
     background-color: violet;
 }
+
+.lima p {
+    text-align: justify;
+    font-size: 20px;
+    margin-right: 50vw;
+}
+
+.lima h2{
+    font-size: 50px;
+    padding-top: 20vh;
+}
+.lima h3 {
+    font-size: 25px;
+}
+
 footer {
     height: 10vh;
+    padding: 0px 40px;
     background-color: blueviolet;
 }
