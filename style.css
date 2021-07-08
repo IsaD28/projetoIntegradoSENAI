@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -41,19 +42,27 @@ header img {
     color: white;
     text-decoration: none;
     user-select: none;
+    transition: all 0.25s;
+}
+
+.materias:hover > a{
+    border: 2px solid rgb(255, 136, 136);
 }
 
 .materias a {
     background-color: rgba(0, 0, 0, 0.11);
-    padding-right: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    padding-right: 35px;
+    padding-left: 10px;
 }
 
 .areadoaluno {
-    margin-left: 600px;
+    margin-left: 560px;
     padding: 10px;
     border-radius: 27px;
-    border: solid 3px white;
-    background-color: rgba(48, 3, 3, 0.418);
+    border: solid 2px rgb(255, 136, 136);
+    background-color: rgba(0, 0, 0, 0.267);
 }
 
 .home {
@@ -268,8 +277,8 @@ header img {
 }
 
 footer {
-    height: 10vh;
-    background-color: rgb(54, 54, 54); 
+    height: 8vh;
+    background-color: rgba(253, 89, 89, 0.856); 
     color: white;
 }
 
@@ -278,17 +287,17 @@ footer {
     display: flex;
     justify-content: center;
     font-style: italic;
-    padding: 3vh 0vh;
-    border-radius: 14px;
-    background-color: rgba(48, 3, 3, 0.418);    
+    padding: 2vh 0vw;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.5);    
     gap: 10px;
 }
 
-.conteudofooter h2 {
-    font-size: 19px;
+.conteudofooter {
+    font-size: 20px;
 }
 
-.conteudofooter h3 a{
+.conteudofooter p a{
     color:white;
     user-select: none;
     text-decoration: none;
