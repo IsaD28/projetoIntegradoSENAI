@@ -5,7 +5,7 @@
 }
 
 body {
-    width: 100vw;
+    width: 98.7vw;
     height: 100vh;
     font-family: 'Rubik', sans-serif;
 }
@@ -13,7 +13,7 @@ body {
 header {
     position: fixed;
     padding: 0px 40px;
-    width: 100vw;
+    width: 98.7vw;
     height: 10vh;
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,6 @@ header {
 header img {
     height: 45px;
     border-radius: 5px;
-
 }
 
 .links ul {
@@ -55,10 +54,6 @@ header img {
     border-radius: 27px;
     border: solid 3px white;
     background-color: rgba(48, 3, 3, 0.418);
-}
-
-main {
-    background-color: wheat;
 }
 
 .home {
@@ -95,43 +90,49 @@ main {
 }
 
 .sop {
-    height: 100vh;
+    height: 130vh;
     padding: 0px 40px;
-    background-color: rgb(194, 205, 235);
+    background-color: rgba(252, 172, 172, 0.856);
 }
 
 .sop p {
     text-align: justify;
-    font-size: 20px;
-    margin-left: 36vw;
+    font-size: 18px;
 }
 
-.sop h2{
+.sop h3 {
+    padding-top: 2vh;
+    font-size: 25px;
+}
+
+.conteudo1sop {
+    padding-top: 15vh;
+}
+
+.conteudo1sop h2{
     font-size: 50px;
 }
-.sop h3 {
+
+.conteudo1sop p {
+    text-align: justify;
     font-size: 25px;
-    padding-left: 5vw;
 }
 
 .titulosop {
     display: flex;
-    padding-top: 20vh;
+    gap: 20px;
+}
+
+.conteudo2sop {
+    display: flex;
+    padding-top: 5vh;
+    gap: 13px;
 }
 
 .fpoo {
-    height: 170vh;
+    height: 200vh;
     padding: 0px 40px;
-    background-color: rgb(204, 151, 151);
-}
-
-.conteudo1fpoo {
-    padding-top: 15vh;
-}
-
-.titulofpoo {
-    display: flex;
-    gap: 20px;
+    background-color: rgba(253, 132, 132, 0.856);
 }
 
 .fpoo p {
@@ -139,13 +140,26 @@ main {
     font-size: 20px;
 }
 
+.fpoo h3 {
+    padding-top: 2vh;
+    font-size: 25px;
+}
+.conteudo1fpoo {
+    padding-top: 15vh;
+}
+
+.conteudo1fpoo p {
+    text-align: justify;
+    font-size: 25px;
+}
+
 .conteudo1fpoo h2{
     font-size: 50px;
 }
 
-.fpoo h3 {
-    padding-top: 2vh;
-    font-size: 25px;
+.titulofpoo {
+    display: flex;
+    gap: 20px;
 }
 
 .conteudo2fpoo {
@@ -154,17 +168,16 @@ main {
     gap: 10px;
 }
 
-
 .imgfpoo1 {
-    width: 23vw;
+    width: 30vw;
 }
 
 .imgfpoo2 {
-    width: 23vw;
+    width: 30vw;
 }
 
 .imgfpoo3 {
-    width: 50vw;
+    width: 60vw;
 }
 
 .conteudo3fpoo {
@@ -176,22 +189,22 @@ main {
 .hare {
     height: 100vh;
     padding: 0px 40px;
-    background-color: rgb(224, 64, 64);
+    background-color: rgba(253, 106, 106, 0.856);
+}
+
+.hare h2{
+    font-size: 50px;
+    padding-top: 27vh;
+}
+.hare h3 {
+    font-size: 25px;
+    padding: 15px 0px;
 }
 
 .hare p {
     text-align: justify;
     margin-right: 40vw;
-    font-size: 20px;
-}
-
-.hare h2{
-    font-size: 50px;
-    padding-top: 20vh;
-}
-.hare h3 {
     font-size: 25px;
-    padding: 15px 0px;
 }
 
 .imghare1 {
@@ -199,9 +212,9 @@ main {
     filter: opacity(40%);
     z-index: 3;
     width: 24vw;
-    height: 65vh;
+    height: 400px;
     left: 69vw;
-    top: 388vh;
+    top: 450vh;
 }
 
 .imghare2{
@@ -209,18 +222,26 @@ main {
     z-index: 4;
     width: 25vw;
     left: 70vw;
-    top: 390vh;
+    top: 448vh;
+}
+
+.imghare3 {
+    position: absolute;
+    filter: opacity(30%); 
+    width: 15vw;
+    left: 3vw;
+    top: 447vh;
 }
 
 .lima {
     height: 100vh;
     padding: 0px 40px;
-    background-color: violet;
+    background-color: rgba(253, 89, 89, 0.856);
 }
 
 .lima p {
     text-align: justify;
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 50vw;
 }
 
@@ -228,15 +249,47 @@ main {
     font-size: 50px;
     padding-top: 20vh;
 }
+
 .lima h3 {
     font-size: 25px;
+    padding: 15px 0px;
 }
 
 .videolima {
-   padding-left: 50vw;
+    position: absolute;
+    top: 555vh;
+    left: 55vw;
+}
+
+.conteudo2lima p{
+    font-size: 17px;
+    padding-top: 25vh;
+    margin-right: 20vw;
 }
 
 footer {
     height: 10vh;
-    padding: 0px 40px;
-    background-color: rgb(54, 54, 54); }
+    background-color: rgb(54, 54, 54); 
+    color: white;
+}
+
+.conteudofooter {
+    width: 98.6vw;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    padding: 3vh 0vh;
+    border-radius: 14px;
+    background-color: rgba(48, 3, 3, 0.418);    
+    gap: 10px;
+}
+
+.conteudofooter h2 {
+    font-size: 19px;
+}
+
+.conteudofooter h3 a{
+    color:white;
+    user-select: none;
+    text-decoration: none;
+}
