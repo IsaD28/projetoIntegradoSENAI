@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 body {
@@ -52,13 +52,14 @@ header img {
 .materias a {
     background-color: rgba(0, 0, 0, 0.212);
     padding: 5px;
+    border: 2px solid transparent;
     border-radius: 10px;
     padding-right: 35px;
     padding-left: 10px;
 }
 
 .areadoaluno {
-    margin-left: 560px;
+    margin-left: 550px;
     padding: 10px;
     border-radius: 27px;
     border: solid 2px rgb(241, 185, 185);
@@ -283,7 +284,7 @@ footer {
 }
 
 .conteudofooter {
-    width: 98.6vw;
+    width: 98.7vw;
     display: flex;
     justify-content: center;
     font-style: italic;
