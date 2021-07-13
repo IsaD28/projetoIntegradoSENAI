@@ -31,7 +31,8 @@ header img {
 
 .links ul {
     display: flex;
-    align-items: center;
+    align-items: center;    
+    gap: 2px;
 }
 
 .links li {
@@ -51,7 +52,7 @@ header img {
 
 .materias a {
     background-color: rgba(0, 0, 0, 0.212);
-    padding: 5px;
+    padding: 4px;
     border: 2px solid transparent;
     border-radius: 10px;
     padding-right: 35px;
@@ -59,7 +60,7 @@ header img {
 }
 
 .areadoaluno {
-    margin-left: 550px;
+    margin-left: 540px;
     padding: 10px;
     border-radius: 27px;
     border: solid 2px rgb(241, 185, 185);
@@ -180,14 +181,17 @@ header img {
 
 .imgfpoo1 {
     width: 30vw;
+    border-radius: 15px;
 }
 
 .imgfpoo2 {
     width: 30vw;
+    border-radius: 15px;
 }
 
 .imgfpoo3 {
     width: 60vw;
+    border-radius: 15px;
 }
 
 .conteudo3fpoo {
@@ -220,15 +224,17 @@ header img {
 .imghare1 {
     position: absolute;
     filter: opacity(40%);
+    border-radius: 15px;
     z-index: 3;
     width: 24vw;
     height: 400px;
     left: 69vw;
-    top: 450vh;
+    top: 451vh;
 }
 
 .imghare2{
     position: absolute;
+    border-radius: 15px;
     z-index: 4;
     width: 25vw;
     left: 70vw;
@@ -238,6 +244,7 @@ header img {
 .imghare3 {
     position: absolute;
     filter: opacity(30%); 
+    border-radius: 15px;
     width: 15vw;
     left: 3vw;
     top: 447vh;
@@ -278,28 +285,38 @@ header img {
 }
 
 footer {
-    height: 8vh;
+    height: 10vh;
     background-color: rgba(253, 89, 89, 0.856); 
     color: white;
 }
 
 .conteudofooter {
+    height: 10vh;
     width: 98.7vw;
-    display: flex;
-    justify-content: center;
     font-style: italic;
-    padding: 2vh 0vw;
+    padding: 1vh 0vw;
     border-radius: 7px;
-    background-color: rgba(0, 0, 0, 0.5);    
-    gap: 10px;
-}
-
-.conteudofooter {
     font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.685);    
+    gap: 10px;
 }
 
 .conteudofooter p a{
     color:white;
     user-select: none;
     text-decoration: none;
+}
+
+.conteudo1footer a{
+   padding: 0px 6px;
+}
+
+.conteudo1footer {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo2footer {
+    display: flex;
+    justify-content: center;
 }
